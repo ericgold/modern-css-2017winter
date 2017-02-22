@@ -5,3 +5,14 @@
 html, body {
 	margin: 0;
 }
+
+html {
+	background: #ccc;
+	text-align: center;
+}
+
+body {
+	background: #fff;
+	width: 500px;
+	margin: 0 auto;
+}
