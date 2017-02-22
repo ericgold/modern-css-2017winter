@@ -47,5 +47,29 @@ body {
 }
 
 fieldset {
-	margin: 1.5rem;
+	border: 0;
+	margin-bottom: 3rem;
 }
+
+fieldset:last-of-type {
+	margin-bottom: 1rem;
+}
+
+button {
+	background: #ddc;
+	border-radius: 10px;
+	border: 1px solid #99a;
+	font-size: 1rem;
+	padding: .5rem .75rem;
+}
+
+[type='reset'] {
+	
+}
+
+[type='submit'] {
+	background: #cdd;
+	border-color: black;
+}
+
+
