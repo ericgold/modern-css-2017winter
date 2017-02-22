@@ -16,6 +16,7 @@ body {
 	width: 80vw;
 	margin: 0 auto;
 	height: 100vh;
+	font-family: sans-serif;
 }
 
 [role='banner']::before {
