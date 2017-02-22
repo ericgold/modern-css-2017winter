@@ -7,14 +7,13 @@ html, body {
 }
 
 html {
-	background: #ccc;
 	text-align: center;
 	height: 100vh;
 }
 
 body {
 	background: #fff;
-	width: 500px;
+	width: 80vw;
 	margin: 0 auto;
 	height: 100vh;
 }
