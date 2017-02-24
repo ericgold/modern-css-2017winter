@@ -45,9 +45,19 @@ body {
 	font-size: 5vh;
 }
 
+nav ul {
+	list-style: none;
+	padding: 0;
+}
 
+nav li {
+	display: inline-block;
+}
 
-
+nav a {
+	padding: .5rem;
+	background: grey;
+}
 
 fieldset {
 	border: 0;
