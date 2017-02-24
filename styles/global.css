@@ -45,6 +45,10 @@ body {
 	font-size: 5vh;
 }
 
+
+
+
+
 fieldset {
 	border: 0;
 	padding: 0;
@@ -68,6 +72,11 @@ legend::before {
 	background: #ddd;
 	left: 0px;
 	z-index: -1;
+}
+
+label,
+label + input {
+	display: block;
 }
 
 button {
