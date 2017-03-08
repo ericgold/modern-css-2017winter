@@ -3,7 +3,7 @@
   <head>
     <meta charset='utf-8' />
     <title>Form</title>
-    <link rel="stylesheet" href="build/style.css">
+    <link rel='stylesheet' href='build/style.css'>
   </head>
   <body>
     <header role='banner'>
@@ -15,44 +15,59 @@
       <ul>
         <li>
           <a href='#'>List item 1</a>
-        </li><!-- prevent whitespace from rendering with inline-block
-        --><li>
+        </li>
+        <li>
           <a href='#'>List item 2</a>
-        </li><!-- prevent whitespace from rendering with inline-block
-        <ul>
-          <li>List sub-item 1</li>
-          <li>List sub-item 2</li>
-        </ul>
-        --><li>
+        </li>
+        <li>
           <a href='#'>List item 3</a>
         </li>
+      <li>
+        <a href='#'>List item 3</a>
+      </li>
+      <li>
+        <a href='#'>List item 3</a>
+      </li>
+      <li>
+        <a href='#'>List item 3</a>
+      </li>
+      <li>
+        <a href='#'>List item 3</a>
+      </li>
+      <li>
+        <a href='#'>List item 3</a>
+      </li>
+      <li>
+        <a href='#'>List item 3</a>
+      </li>
       </ul>
     </nav>
 
     <section>
       <header>
-        <h1>Section Header</h1>
+        <h1>Section header</h1>
       </header>
     </section>
+
     <form>
       <fieldset>
         <legend>Account Info</legend>
         <label for='email'>
           Enter your e-mail
-          <input 
-            type='email' 
-            name='email' 
+
+          <input
+            type='email'
+            name='email'
             placeholder='e.g. asdf@asdf.com' />
         </label>
-        
         <label for='password'>
           Choose a password
-          <input 
-            type='password' 
-            name='password' 
+          <input
+            type='password'
+            name='password'
             placeholder='Choose Wisely' />
         </label>
-        
+
       </fieldset>
 
       <fieldset>
@@ -67,10 +82,13 @@
         <input type='tel' name='tel' placeholder='e.g (999) 999-9999' />
 
         <label>
-          <input 
-            type='radio' 
-            name='gender' 
-            value='Prefer not to say' checked 
+
+          <input
+            type='radio'
+            name='gender'
+            value='Prefer not to say'
+            checked
+
             aria-selected='true' />
           Prefer not to say
         </label>
@@ -113,7 +131,8 @@
           </optgroup>
         </select>
       </fieldset>
-      <button type="button">Validate the form</button>
+
+      <button type='button'>Validate the form</button>
       <button type='reset'>Reset the form</button>
       <button type='submit'>Submit</button>
     </form>
