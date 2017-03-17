@@ -120,6 +120,7 @@ form button[type="submit"] {
 	background: #EEE;
 	border: none;
 	border-bottom: 3px solid #CCC;
+	cursor: pointer;
 }
 
 form button[type="submit"]:hover,
