@@ -77,8 +77,11 @@ div:first-of-type {
 	margin-right: 0.5rem;
 }
 
-.buttons a:hover {
+.buttons a:hover,
+.buttons a:active,
+.buttons a:focus {
 	background-color: #2881A8;
+	transition: background-color 1s;
 }
 
 form input {
@@ -93,6 +96,7 @@ form input {
 
 form input:focus {
 	border: 2px solid #34A0CF;
+	transition: 1s;
 }
 
 a {
@@ -101,8 +105,11 @@ a {
 	color: #34A0CF;
 }
 
-form a:hover {
+form a:hover,
+form a:active,
+form a:focus {
 	color: green;
+	transition: color 1s;
 }
 
 form button[type="submit"] {
@@ -115,8 +122,11 @@ form button[type="submit"] {
 	border-bottom: 3px solid #CCC;
 }
 
-form button[type="submit"]:hover {
+form button[type="submit"]:hover,
+form button[type="submit"]:active,
+form button[type="submit"]:focus {
 	background-color: green;
 	border-bottom: 3px solid darkgreen;
 	color: white;
+	transition: 1s;
 }
