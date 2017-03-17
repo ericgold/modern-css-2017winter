@@ -81,7 +81,8 @@ div:first-of-type {
 .buttons a:active,
 .buttons a:focus {
 	background: midnightblue;
-	transition: background 1s;
+	transition: all 1s;
+	box-shadow: 5px 5px 10px #34A0CF;
 }
 
 form input {
@@ -129,5 +130,6 @@ form button[type="submit"]:focus {
 	background: forestgreen;
 	border-bottom: 3px solid forestgreen;
 	color: white;
+	box-shadow: 5px 5px 5px chartreuse;
 	transition: all 0.5s;
 }
